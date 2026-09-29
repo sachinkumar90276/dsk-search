@@ -1,0 +1,13 @@
+use_default_settings: true
+
+search:
+  formats:
+    - html
+    - json
+
+server:
+  port: 10000
+  bind_address: "0.0.0.0"
+  limiter: false
+  method: "GET"
+  secret_key: "dsk-search-secret-2026"
